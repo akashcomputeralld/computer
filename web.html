@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akash Computer Centre</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    line-height:1.6;
+}
+header{
+    background:linear-gradient(135deg,#004aad,#0077ff);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+header h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+header p{
+    font-size:20px;
+}
+nav{
+    background:#002b66;
+    text-align:center;
+    padding:15px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+section{
+    padding:50px 20px;
+}
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+h2{
+    text-align:center;
+    color:#004aad;
+    margin-bottom:30px;
+}
+.course-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+.course{
+    background:#f4f4f4;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+.course h3{
+    color:#004aad;
+    margin-bottom:10px;
+}
+.about{
+    background:#f9f9f9;
+}
+.contact{
+    background:#004aad;
+    color:white;
+    text-align:center;
+}
+.contact p{
+    font-size:18px;
+    margin:10px 0;
+}
+footer{
+    background:#002b66;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#ffcc00;
+    color:black;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+</style>
+</head>
+<body>
+<form>
+    <input type="text" placeholder="Enter Registration Number">
+    <button>Verify Student</button>
+</form>
+<header>
+    <h1>Akash Computer Centre</h1>
+    <p>Professional Computer Education & Skill Development Institute</p>
+    <a href="#contact" class="btn">Contact Us</a>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="about">
+    <div class="container">
+        <h2>About Us</h2>
+        <p style="text-align:center;font-size:18px;">
+            Akash Computer Centre provides quality computer education and professional training.
+            Our goal is to equip students with practical computer skills for career growth and job opportunities.
+        </p>
+    </div>
+</section>
+
+<section id="courses">
+    <div class="container">
+        <h2>Our Courses</h2>
+
+        <div class="course-grid">
+
+            <div class="course">
+                <h3>DCA</h3>
+                <p>Diploma in Computer Applications</p>
+            </div>
+
+            <div class="course">
+                <h3>DEO</h3>
+                <p>Data Entry Operator Course</p>
+            </div>
+
+            <div class="course">
+                <h3>CCC</h3>
+                <p>Course on Computer Concepts</p>
+            </div>
+
+            <div class="course">
+                <h3>O Level</h3>
+                <p>NIELIT O Level Computer Course</p>
+            </div>
+
+            <div class="course">
+                <h3>Tally Prime</h3>
+                <p>Accounting & GST Training</p>
+            </div>
+
+            <div class="course">
+                <h3>Office Automation</h3>
+                <p>MS Word, Excel, PowerPoint & Internet</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <h2 style="color:white;">Contact Us</h2>
+
+        <p><strong>Address:</strong><br>
+        1st Floor, Sundram Tower, Rambagh, Prayagraj</p>
+
+        <p><strong>Mobile:</strong><br>
+        9336276750, 8299606962</p>
+
+        <p><strong>Admission Open</strong></p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Akash Computer Centre | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
